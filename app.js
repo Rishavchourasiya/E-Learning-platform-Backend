@@ -1,11 +1,12 @@
 const express = require('express');
 const app = express();
-require('./db/Connection');
+require('./db/Connection.js');
 const Register = require('./model/Register');
 const data = require('./default/default');
 const Lecture = require('./model/Lecture');
 const cors = require('cors');
 const bcrypt = require('bcryptjs');
+const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 // Root
@@ -106,7 +107,7 @@ app.post('/login', async (req, res) => {
 });
 
 // Server Listener
-app.listen(5000, () => {
+app.listen(PORT, () => {
   console.log('Server is running on port: http://localhost:5000');
 });
 data(); // Initialize default data
