@@ -9,7 +9,7 @@ const Lecture = [
         name: "Video 2",
         title: "Title for Video 2",
         description: "Description for Video 2",
-        url: "https://photos.google.com/documents/ChpTY3JlZW5zaG90cyBhbmQgcmVjb3JkaW5ncyIJEgcKBbIBAhgOKNro6%2Fr+Mg%3D%3D/photo/AF1QipP4YcX-cKRZea_XV1k6zOH51xDm5tu1gKOgMic"
+        url: "https://www.w3schools.com/html/mov_bbb.mp4"
     },
     
     {
